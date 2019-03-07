@@ -17,7 +17,7 @@ namespace NotPad
         public Login()
         {
             InitializeComponent();
-            DbContext = new DataContext();
+            DbContext = new DataContext();//jgjhghjfkjh
         }
 
         private void BtnLogin_Click(object sender, EventArgs e)
